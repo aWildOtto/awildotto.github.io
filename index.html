@@ -1,70 +1,241 @@
 <!DOCTYPE html>
-<html class="nojs html css_verticalspacer" lang="en-US">
- <head>
+<html>
 
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="generator" content="2017.0.2.363"/>
-  
-  <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
-document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Home - ZiBoo Studios</title>
+  <meta name="description" content="We make apps">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/dh-card-image-left-dark.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
 
-// Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
-</script>
-  
-  <title>Home Page</title>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3908582515"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4256296759" id="pagesheet"/>
-  <!-- JS includes -->
-  <!--[if lt IE 9]>
-  <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
-  <![endif]-->
-   </head>
- <body>
+<body id="page-top">
+  <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">ZiBoo Studios</a><button
+        data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
+          class="fa fa-align-justify"></i></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" href="#about">About us</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="masthead text-center text-white d-flex" style="background-image:url('assets/img/header.jpg');">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h1 class="text-uppercase"><strong>ideas come true</strong></h1>
+          <hr>
+        </div>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <p class="text-faded mb-5">We make web/mobile apps to your needs.</p><a
+          class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#portfolio">Our work</a>
+      </div>
+    </div>
+  </header>
+  <section id="about">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading">We are a team of elite software developers</h2>
+      <p>
+        We make customized software on
+        demand.
+        Wether it is a web/mobile app, you can count on us to get it done.
+      </p>
+      <hr class="my-4">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 text-center">
+          <div class="mx-auto service-box mt-5"><i class="fa fa-diamond fa-4x text-primary mb-3 sr-icons"
+              data-aos="zoom-in" data-aos-duration="200" data-aos-once="true"></i>
+            <h3 class="mb-3">Craftsmanship</h3>
+            <p class="text-muted mb-0">We love coding and making apps. We work hard and put all our efforts into every
+              product we make</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 text-center">
+          <div class="mx-auto service-box mt-5"><i class="fa fa-paper-plane fa-4x text-primary mb-3 sr-icons"
+              data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200" data-aos-once="true"></i>
+            <h3 class="mb-3">Ready to Ship</h3>
+            <p class="text-muted mb-0">We move quickly. Ship apps at your required deadline.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 text-center">
+          <div class="mx-auto service-box mt-5"><i class="fa fa-newspaper-o fa-4x text-primary mb-3 sr-icons"
+              data-aos="zoom-in" data-aos-duration="200" data-aos-delay="400" data-aos-once="true"></i>
+            <h3 class="mb-3">Up to Date</h3>
+            <p class="text-muted mb-0">We use the latest and best suited technologies to minimize your maintainance cost
+              and maximize your app functionalities</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 text-center">
+          <div class="mx-auto service-box mt-5"><i class="fa fa-heart fa-4x text-primary mb-3 sr-icons" data-aos="fade"
+              data-aos-duration="200" data-aos-delay="600" data-aos-once="true"></i>
+            <h3 class="mb-3">Made with Love</h3>
+            <p class="text-muted mb-0">We only make apps that ourselves will love.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio">
+    <h2 class="text-center section-heading">Projects to date</h2>
+    <hr class="my-4">
+    <section style="padding: 50px 0px;">
+      <div class="container">
+        <div class="photo-card">
+          <div class="photo-background" style="background-image:url(&quot;assets/img/airtnl.png&quot;);">
+          </div>
+          <div class="photo-details">
+            <h1>AirTnL</h1>
+            <p>A web platform for students to find language, academic classes and skill trainings.</p>
+            <div class="photo-tags">
+              <ul>
+                <li>
+                  <span>Live</span>
+                </li>
+                <li>
+                  <a href="https://www.airtnl.com" target="_blank">Check it out</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="photo-card mt-3">
+          <div class="photo-background" style="background-image:url(&quot;assets/img/icleana.png&quot;);">
+          </div>
+          <div class="photo-details">
+            <h1>iCleana</h1>
+            <p>A platform for AirBnB hosts to quickly book cleanning service.</p>
+            <div class="photo-tags">
+              <ul>
+                <li>
+                  <span>Live</span>
+                </li>
+                <li>
+                  <a href="https://www.iCleana.com" target="_blank">Check it out</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-center mt-5">Our best work is yet to come...</h2>
+      </div>
+    </section>
+  </section>
+  <!-- 
+  <section id="photos" class="p-0">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters popup-gallery">
+        <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/fullsize/1.jpg"><img class="img-fluid"
+              src="assets/img/thumbnails/1.jpg">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded"><span>Category</span></div>
+                <div class="project-name"><span>Project Name</span></div>
+              </div>
+            </div>
+          </a></div>
+        <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/fullsize/2.jpg"><img class="img-fluid"
+              src="assets/img/thumbnails/2.jpg">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded"><span>Category</span></div>
+                <div class="project-name"><span>Project Name</span></div>
+              </div>
+            </div>
+          </a></div>
+        <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/fullsize/3.jpg"><img class="img-fluid"
+              src="assets/img/thumbnails/3.jpg">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded"><span>Category</span></div>
+                <div class="project-name"><span>Project Name</span></div>
+              </div>
+            </div>
+          </a></div>
+        <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/fullsize/4.jpg"><img class="img-fluid"
+              src="assets/img/thumbnails/4.jpg">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded"><span>Category</span></div>
+                <div class="project-name"><span>Project Name</span></div>
+              </div>
+            </div>
+          </a></div>
+        <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/fullsize/5.jpg"><img class="img-fluid"
+              src="assets/img/thumbnails/5.jpg">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded"><span>Category</span></div>
+                <div class="project-name"><span>Project Name</span></div>
+              </div>
+            </div>
+          </a></div>
+        <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/fullsize/6.jpg"><img class="img-fluid"
+              src="assets/img/thumbnails/6.jpg">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded"><span>Category</span></div>
+                <div class="project-name"><span>Project Name</span></div>
+              </div>
+            </div>
+          </a></div>
+      </div>
+    </div>
+  </section> -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Let's Get In Touch!</h2>
+          <hr class="my-4">
+          <p class="mb-5">Have an app idea? Need a website to showcase your business or portfolio? Need to open a online
+            store or service booking platform? Wether it is web or
+            mobile, we can
+            make it happen.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto text-center"><i class="fa fa-phone fa-3x mb-3 sr-contact" data-aos="zoom-in"
+            data-aos-duration="300" data-aos-once="true"></i>
+          <p>
+            <a href="tel:778-888-9999">778-888-9999</a>
+          </p>
+        </div>
+        <div class="col-lg-4 mr-auto text-center"><i class="fa fa-envelope-o fa-3x mb-3 sr-contact" data-aos="zoom-in"
+            data-aos-duration="300" data-aos-delay="300" data-aos-once="true"></i>
+          <p><a href="mailto:ziboostudios@gmail.com">ziboostudios@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/creative.js"></script>
+  <script src="assets/js/bs-animation.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+</body>
 
-  <div class="museBGSize clearfix" id="page"><!-- column -->
-   <nav class="MenuBar clearfix colelem" id="menuu2298"><!-- horizontal box -->
-    <div class="MenuItemContainer clearfix grpelem" id="u2313"><!-- vertical box -->
-     <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition clearfix colelem" id="u2316" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2317-4"><!-- content --><p>Home Page</p></div></a>
-    </div>
-    <div class="MenuItemContainer clearfix grpelem" id="u2306"><!-- vertical box -->
-     <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u2309" href="branding-design.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2310-4"><!-- content --><p>Branding Design</p></div></a>
-    </div>
-    <div class="MenuItemContainer clearfix grpelem" id="u2320"><!-- vertical box -->
-     <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u2323" href="layout-design.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2324-4"><!-- content --><p>Layout Design</p></div></a>
-    </div>
-    <div class="MenuItemContainer clearfix grpelem" id="u2327"><!-- vertical box -->
-     <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u2328" href="bios-ethos.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2329-4"><!-- content --><p>Bios&amp;Ethos</p></div></a>
-    </div>
-    <div class="MenuItemContainer clearfix grpelem" id="u2299"><!-- vertical box -->
-     <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u2302" href="influence.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2303-4"><!-- content --><p>Influence</p></div></a>
-    </div>
-    <div class="MenuItemContainer clearfix grpelem" id="u3401"><!-- vertical box -->
-     <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u3402" href="gallery.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u3403-4"><!-- content --><p>Gallery</p></div></a>
-    </div>
-   </nav>
-   <div class="verticalspacer" data-offset-top="75" data-content-above-spacer="116" data-content-below-spacer="690"></div>
-  </div>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
-16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
-l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
-f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.musemenu","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
-window.Muse.assets.check($);/* body */
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.showWidgetsWhenReady();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
-
-</script>
-  <!-- RequireJS script -->
-  <script src="scripts/require.js?crc=4234670167" type="text/javascript" async data-main="scripts/museconfig.js?crc=4152223963" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-   </body>
 </html>

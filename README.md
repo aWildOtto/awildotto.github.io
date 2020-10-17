@@ -1,2 +1,0 @@
-# Otto's portfolio
-WIP
